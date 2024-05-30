@@ -22,7 +22,7 @@ public interface UserMapper {
     void insert(User user);
 
     /**
-     *
+     * 分页条件查询并按下单时间排序
      * @param id
      * @return
      */
